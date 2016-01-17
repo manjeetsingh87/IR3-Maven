@@ -9,7 +9,7 @@ public class BingTranslate {
 		String queryTranslated = null;
 
 		Translate.setClientId("IR_Project");
-		Translate.setClientSecret("oMUBNcizYcBnaonCrFZVm32O/uML2vZeLBIEtHxkYQA=");
+		Translate.setClientSecret("enter api key here");
 		
 		if(lang == "ru")
 		{

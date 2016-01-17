@@ -16,7 +16,7 @@ import org.xml.sax.SAXException;
 import api.AlchemyAPI;
 public class AlchemyTagger {
 
-	private static AlchemyAPI alchemyObj = AlchemyAPI.GetInstanceFromString("860f2a92d7f2d7fa145705776f8d2741d5344fe2");
+	private static AlchemyAPI alchemyObj = AlchemyAPI.GetInstanceFromString("enter api key here");
 
 	public static List<String> getConceptfromDocument(String text) {
 		List<String> conceptList= new ArrayList<String>();
